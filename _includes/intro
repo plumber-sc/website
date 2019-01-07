@@ -1,0 +1,8 @@
+@{{ page.feature_row.title }}@
+
+{% if include.id %}
+  {% assign intro = page[include.id] %}
+{% else %}
+  {% assign intro = page.intro %}
+{% endif %}
+<h1>{{ page.intro.title }}</h1>
