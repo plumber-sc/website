@@ -3,4 +3,6 @@
 {% else %}
   {% assign intro = page.intro %}
 {% endif %}
-<h1>{{ intro.title }}</h1>
+<div class="intro">
+  <h1>{{ intro.title }}</h1>
+</div>
