@@ -32,6 +32,12 @@ $sans-serif : 'Open Sans', sans-serif;
 
 .page__title {
     color: $plumberRed;
+    margin-bottom: 0px;
+}
+
+.page__lead {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .btn--primary {
